@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+    url('../fonts/BebasNeueRegular.woff') format('woff'),
+    url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+    url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Light.eot');
+    src: url('../fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Light.woff2') format('woff2'),
+    url('../fonts/Metropolis-Light.woff') format('woff'),
+    url('../fonts/Metropolis-Light.ttf') format('truetype'),
+    url('../fonts/Metropolis-Light.svg#Metropolis-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.main_screen {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding-top: 25px;
+    padding-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.65);
+
+}
+
+.header_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 21px;
+    border-bottom: 2px solid #464646;
+}
+
+header form {
+    height: 42px;
+    width: 208px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+
+}
+
+header form input {
+    background-color: transparent;
+    border: none;
+    line-height: 42px;
+    display: inline-block;
+    width: 75%;
+    padding-left: 7px;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+
+header form input:focus, header form button:focus {
+    outline: none;
+    border: none;
+
+}
+
+header form button {
+    min-width: 20%;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
+    color: #ff253a;
+    font-size: 17px;
+}
+
+.header_form .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 500;
+    background-color: #252525;
+    line-height: 42px;
+    min-width: 170px;
+    height: 42px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.header_form a i {
+    margin-right: 13px;
+}
+
+.header_form .grey {
+    background-color: #464646;
+}
+
+.header_form .red {
+    background-color: #fa090a;
+}
+
+.header_menu {
+    padding-top: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_menu ul {
+    display: flex;
+}
+
+.header_menu ul li {
+    margin-right: 30px;
+}
+
+.header_menu ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+}
+
+.header_menu ul li a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #fa090a;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.header_menu ul li:hover a:after {
+    content: '';
+    display: block;
+    width: 100%;
+}
+
+.socials a {
+    text-decoration: none;
+    background-color: #fa090a;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 65px;
+    padding-bottom: 20px;
+
+}
+
+.title .container {
+    border-bottom: #fa090a 3px solid;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+
+
+
+
